@@ -39,6 +39,7 @@ namespace Module_4_Practice
                 User.Age = double.Parse(Console.ReadLine());
 
                 User.favcolors = new string[3];
+                
                 Console.WriteLine("Введите три ваших любимых цвета: ");
 
                 for (int i = 0; i < User.favcolors.Length; i++)
